@@ -1,0 +1,109 @@
+{
+  "id": "483510a4-4433-45ea-8426-23bb3e751d4c",
+  "name": "QUIZ",
+  "description": "",
+  "auth": null,
+  "events": null,
+  "variables": [],
+  "order": [
+    "818037e1-b830-4125-8a5a-a2664093adf8",
+    "df0656ed-a1a3-4610-a962-26dfc8439330",
+    "c35ba77e-3031-49de-908e-03dab1b1cafc",
+    "330af207-f52b-4182-8b0d-76105cc03895"
+  ],
+  "folders_order": [],
+  "protocolProfileBehavior": [],
+  "folders": [],
+  "requests": [
+    {
+      "id": "330af207-f52b-4182-8b0d-76105cc03895",
+      "name": "Salvar Condi\u00e7\u00e3o",
+      "url": "http:\/\/localhost:8080\/api\/condition",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "currentHelper": null,
+      "helperAttributes": null,
+      "collectionId": "483510a4-4433-45ea-8426-23bb3e751d4c",
+      "rawModeData": "{\n    \"condition\": \"Pode se comer\"\n}",
+      "pathVariables": []
+    },
+    {
+      "id": "818037e1-b830-4125-8a5a-a2664093adf8",
+      "name": "Encontrar animal por ID",
+      "url": "http:\/\/localhost:8080\/api\/animals\/2",
+      "description": "",
+      "data": null,
+      "dataOptions": null,
+      "dataMode": null,
+      "headerData": null,
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "currentHelper": null,
+      "helperAttributes": null,
+      "collectionId": "483510a4-4433-45ea-8426-23bb3e751d4c",
+      "pathVariables": []
+    },
+    {
+      "id": "c35ba77e-3031-49de-908e-03dab1b1cafc",
+      "name": "Criar Animal",
+      "url": "http:\/\/localhost:8080\/api\/animals",
+      "description": "",
+      "data": [],
+      "dataOptions": {
+        "raw": {
+          "language": "json"
+        }
+      },
+      "dataMode": "raw",
+      "headerData": null,
+      "method": "POST",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "currentHelper": null,
+      "helperAttributes": null,
+      "collectionId": "483510a4-4433-45ea-8426-23bb3e751d4c",
+      "rawModeData": "{\n    \"name\": \"Molusco\",\n    \"conditions\": [\n        {\n            \"id\": 1\n        },\n        {\n            \"id\": 2\n        }\n    ]\n}",
+      "pathVariables": []
+    },
+    {
+      "id": "df0656ed-a1a3-4610-a962-26dfc8439330",
+      "name": "Busca todos Animais",
+      "url": "http:\/\/localhost:8080\/api\/animals",
+      "description": "",
+      "data": null,
+      "dataOptions": null,
+      "dataMode": null,
+      "headerData": null,
+      "method": "GET",
+      "pathVariableData": [],
+      "queryParams": [],
+      "auth": null,
+      "events": null,
+      "folder": null,
+      "currentHelper": null,
+      "helperAttributes": null,
+      "collectionId": "483510a4-4433-45ea-8426-23bb3e751d4c",
+      "pathVariables": []
+    }
+  ]
+}
