@@ -8,6 +8,6 @@ Após o a confirmação dos dois softwares abre o terminal e execute o seguintes
 -> clean install
 -> java -jar ./target/apijogoanimal-0.0.1-SNAPSHOT.jar
 
-Obs: Após realizar os procedimentos, favor acessaram o Front.
+Obs: Após realizar os procedimentos, favor acessar o Front.
 
 
